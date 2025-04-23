@@ -11,5 +11,6 @@ int main()
     point P[5] = {{1, 2}, {3, 4}, {5, 4}, {7, -1}, {3, -2}};
 
     // pole wielokąta P5 = 23
+    cout << area_polygon(P, 5) << endl;
     return 0;
 }
